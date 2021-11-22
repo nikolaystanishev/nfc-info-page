@@ -3,7 +3,8 @@
   background-color: #333;
   overflow: hidden;
   position: fixed;
-  width: 100%;
+  width: 99%;
+  margin: auto;
 }
 
 /* Style the links inside the navigation bar */
