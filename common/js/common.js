@@ -18,13 +18,9 @@ function loadCommonResources() {
   $("body").prepend('<div id="header"></div>');
   $("body").append('<div id="footer"></div>');
 
-  $("#common").load("./common/common.html", setup);
+  $("#common").load("./common/common.html");
   $("#header").load("./common/header.html", selectTabInHeader);
   $("#footer").load("./common/footer.html");
-}
-
-setup = () => {
-  $(document).ready(setupList); 
 }
 
 selectTabInHeader = () => {
