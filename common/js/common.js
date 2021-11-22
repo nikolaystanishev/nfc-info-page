@@ -19,8 +19,8 @@ function loadCommonResources() {
   $("body").append('<div id="footer"></div>');
 
   $("#common").load("./common/common.html");
-  $("#header").load("./common/header.html", selectTabInHeader);
-  $("#footer").load("./common/footer.html");
+  $("#header").load("./common/header-footer/header.html", selectTabInHeader);
+  $("#footer").load("./common/header-footer/footer.html");
 }
 
 selectTabInHeader = () => {
