@@ -1,0 +1,47 @@
+nav {
+  position: relative;
+  padding-bottom: 12px;
+}
+
+nav .line {
+  height: 2px;
+  position: absolute;
+  bottom: 0;
+  margin: 10px 0 0 0;
+  background: #04AA6D;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin: 0 40px 0 0;
+  opacity: .4;
+  transition: all 0.4s ease;
+}
+
+nav li:hover {
+  opacity: .7;
+}
+
+nav li.active-list {
+  opacity: 1;
+}
+
+nav li:last-child {
+  margin-right: 0;
+}
+
+nav li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 600;
+  letter-spacing: .2em;
+  font-size: 14px;
+  color: black;
+}
