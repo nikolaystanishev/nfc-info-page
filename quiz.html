@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <link rel="shortcut icon" type="image/jpg" href="./common/img/logo.png"/>
+    <meta charset="UTF-8">
+    <script src="./common/js/common.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="quizContainer">
+        <div id="start">Start Quiz!</div>
+        <div id="quiz" style="display: none">
+          <div id="question"></div>
+          <div id="choices">
+            <div class="choice" id="A" onclick="checkAnswer('A')"></div>
+            <div class="choice" id="B" onclick="checkAnswer('B')"></div>
+            <div class="choice" id="C" onclick="checkAnswer('C')"></div>
+          </div>
+          <div id="progress"></div>
+        </div>
+        <div id="scoreContainer" style="display: none"></div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,94 @@
+.quizContainer {
+  margin : auto;
+  height: 30%;
+  width: 60%;
+  border-radius: 5px;
+  box-shadow: 0px 5px 15px 0px;
+  position: relative;
+  display: flex;
+}
+
+#start {
+  font-size: 1.5em;
+  font-weight: bolder;
+  text-align: center;
+  cursor: pointer;
+  margin: auto;
+  color: lightgrey;
+}
+
+#start:hover {
+  color: #04AA6D;
+}
+
+#question {
+  text-align: center;
+  position: absolute;
+  width: 100%;
+}
+
+#question p {
+  padding: 15px;
+  font-size: 1.25em;
+}
+
+#choices {
+  position: absolute;
+  top: 125px;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  margin: auto;
+  width: 97%;
+}
+
+.choice {
+  display: inline-block;
+  width: 30%;
+  text-align: center;
+  border: 1px solid grey;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 5px;
+  margin: 5px;
+}
+
+.choice:hover {
+  border: 2px solid grey;
+  font-weight: bold;
+}
+
+#progress {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  padding: 5px;
+  text-align: right;
+}
+
+.prog {
+  width: 25px;
+  height: 25px;
+  border: 1px solid #000;
+  display: inline-block;
+  border-radius: 50%;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#scoreContainer {
+  margin: auto;
+  opacity: 0.8;
+  background-color: #04AA6D;
+  width: 30%;
+  border-radius: 5px;
+  box-shadow: 0px 5px 15px 0px;
+  display: none;
+}
+
+#scoreContainer p {
+  display: block;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+}
