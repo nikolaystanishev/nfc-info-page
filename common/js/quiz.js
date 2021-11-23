@@ -61,7 +61,7 @@ function renderQuestion() {
   choiceC.innerHTML = q.choiceC;
 }
 
-start.addEventListener("click", startQuiz);
+start?.addEventListener("click", startQuiz);
 
 function startQuiz() {
   start.style.display = "none";
