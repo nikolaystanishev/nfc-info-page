@@ -1,5 +1,5 @@
 .quizContainer {
-  margin : auto;
+  margin: auto;
   height: 30%;
   width: 60%;
   border-radius: 5px;
@@ -18,7 +18,7 @@
 }
 
 #start:hover {
-  color: #04AA6D;
+  color: #04aa6d;
 }
 
 #question {
@@ -79,7 +79,7 @@
 #scoreContainer {
   margin: auto;
   opacity: 0.8;
-  background-color: #04AA6D;
+  background-color: #04aa6d;
   width: 30%;
   border-radius: 5px;
   box-shadow: 0px 5px 15px 0px;

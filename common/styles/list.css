@@ -9,7 +9,7 @@ nav .line {
   position: absolute;
   bottom: 0;
   margin: 10px 0 0 0;
-  background: #04AA6D;
+  background: #04aa6d;
 }
 
 nav ul {
@@ -21,7 +21,7 @@ nav ul {
 
 nav li {
   margin: 0 40px 0 0;
-  opacity: .4;
+  opacity: 0.4;
   transition: all 0.4s ease;
   margin-left: auto;
   margin-right: auto;
@@ -30,7 +30,7 @@ nav li {
 }
 
 nav li:hover {
-  opacity: .7;
+  opacity: 0.7;
 }
 
 nav li.active-list {
@@ -46,7 +46,7 @@ nav li a {
   text-transform: uppercase;
   display: block;
   font-weight: 600;
-  letter-spacing: .2em;
+  letter-spacing: 0.2em;
   font-size: 14px;
   color: black;
 }
