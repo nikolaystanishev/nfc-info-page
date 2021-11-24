@@ -25,8 +25,8 @@ function loadCommonResources() {
 
 selectTabInHeader = () => {
   tab = document.location.pathname;
-  tab = tab.slice(1);
-  if (tab === '') {
+  tab = tab.slice(1).split('/').at(-1);
+  if (tab === undefined || tab === '') {
     tab = 'index';
   }
   tab = tab.split('.')[0];
